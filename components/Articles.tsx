@@ -1,6 +1,12 @@
 export default function Articles() {
   const items = [
     {
+        title: "AI School",
+        link: "https://github.com/hireshBrem/ai-school",
+        source: "AI",
+        description: "Multi-agent AI school made with Langgraphjs and Langgraph Studio",
+    },
+    {
         title: "Studia",
         link: "https://studiaai.com",
         source: "AI ",
@@ -9,7 +15,7 @@ export default function Articles() {
     },
     {
       title: "Langgraph agent that creates SEO-optimized blogs.",
-      link: "/",
+      link: "https://github.com/hireshBrem",
       source: "AI",
       description:
         "This project aims to create a tool that can generate SEO-optimized blogs for a website.",
@@ -19,7 +25,7 @@ export default function Articles() {
   return (
     <section>
       <h2 className="font-inter-tight text-lg font-semibold text-gray-800 dark:text-gray-100 mb-6">
-        Side Projects :)
+        Side Projects
       </h2>
       <div className="space-y-1">
         {items.map((item, index) => (
